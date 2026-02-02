@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css" />
     
-    <!-- Tailwind CSS via CDN para funcionamiento inmediato sin build -->
+    <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -18,20 +18,16 @@
             },
             colors: {
               'deep-blue': '#051025',
-              'gold-light': '#FCEda4',
-              'gold-mid': '#D4AF37',
-              'gold-dark': '#8a6e15',
-              'gold-text': '#E5C568',
-            },
-            boxShadow: {
-              'gold-btn': '0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.4)',
-              'gold-inset': 'inset 0 2px 4px rgba(0, 0, 0, 0.25)',
+              'gold-flat': '#D4AF37',
+              'gold-hover': '#B5952F',
+              'off-white': '#F5F5F5',
             }
           }
         }
       }
     </script>
 
+    <!-- IMPORTMAP ESTRICTO: Solo React 18.2.0 sin residuos de v19 -->
     <script type="importmap">
 {
   "imports": {
